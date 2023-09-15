@@ -10,7 +10,7 @@
 
 namespace KnpU\OAuth2ClientBundle\Client\Provider;
 
-use AdamPaterson\OAuth2\Client\Provider\SlackResourceOwner;
+use Chadhutchins\OAuth2\Client\Provider\SlackResourceOwner;
 use KnpU\OAuth2ClientBundle\Client\OAuth2Client;
 use League\OAuth2\Client\Token\AccessToken;
 

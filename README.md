@@ -94,11 +94,11 @@ via Composer:
 | [Paypal](https://github.com/stevenmaguire/oauth2-paypal)              | composer require stevenmaguire/oauth2-paypal       |
 | [PSN](https://github.com/larabros/oauth2-psn)                         | composer require larabros/oauth2-psn               |
 | [Salesforce](https://github.com/stevenmaguire/oauth2-salesforce)      | composer require stevenmaguire/oauth2-salesforce   |
-| [Slack](https://github.com/adam-paterson/oauth2-slack)                | composer require adam-paterson/oauth2-slack        |
+| [Slack](https://github.com/chadhutchins/oauth2-slack)                | composer require chadhutchins/oauth2-slack        |
 | [Spotify](https://github.com/ker0x/oauth2-spotify)                    | composer require kerox/oauth2-spotify              |
 | [SymfonyConnect](https://github.com/qdequippe/oauth2-symfony-connect) | composer require qdequippe/oauth2-symfony-connect  |
 | [Strava](https://github.com/Edwin-Luijten/oauth2-strava)              | composer require edwin-luijten/oauth2-strava       |
-| [Stripe](https://github.com/adam-paterson/oauth2-stripe)              | composer require adam-paterson/oauth2-stripe       |
+| [Stripe](https://github.com/chadhutchins/oauth2-stripe)              | composer require adam-paterson/oauth2-stripe       |
 | [Twitch Deprecated](https://github.com/tpavlek/oauth2-twitch)         | composer require depotwarehouse/oauth2-twitch      |
 | [Twitch Helix](https://github.com/vertisan/oauth2-twitch-helix)       | composer require vertisan/oauth2-twitch-helix      |
 | [Uber](https://github.com/stevenmaguire/oauth2-uber)                  | composer require stevenmaguire/oauth2-uber         |
@@ -1364,7 +1364,7 @@ knpu_oauth2_client:
 
         # will create service: "knpu.oauth2.client.slack"
         # an instance of: KnpU\OAuth2ClientBundle\Client\Provider\SlackClient
-        # composer require adam-paterson/oauth2-slack
+        # composer require chadhutchins/oauth2-slack
         slack:
             # must be "slack" - it activates that type!
             type: slack

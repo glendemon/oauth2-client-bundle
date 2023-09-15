@@ -22,7 +22,7 @@ class SlackProviderConfigurator implements ProviderConfiguratorInterface
 
     public function getProviderClass(array $config)
     {
-        return 'AdamPaterson\OAuth2\Client\Provider\Slack';
+        return 'Chadhutchins\OAuth2\Client\Provider\Slack';
     }
 
     public function getProviderOptions(array $config)
@@ -35,12 +35,12 @@ class SlackProviderConfigurator implements ProviderConfiguratorInterface
 
     public function getPackagistName()
     {
-        return 'adam-paterson/oauth2-slack';
+        return 'chadhutchins/oauth2-slack';
     }
 
     public function getLibraryHomepage()
     {
-        return 'https://github.com/adam-paterson/oauth2-slack';
+        return 'https://github.com/chadhutchins/oauth2-slack';
     }
 
     public function getProviderDisplayName()
